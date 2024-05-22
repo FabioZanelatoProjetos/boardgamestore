@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Board Games</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Loja de Board Games</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#games">Jogos</a></li>
+                <li><a href="#cart">Carrinho</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Bem-vindo à nossa Loja de Board Games</h2>
+            <p>Confira nossa seleção incrível de jogos de tabuleiro!</p>
+        </section>
+        <section id="games">
+            <h2>Nossos Jogos</h2>
+            <div class="game-list">
+                <div class="game-item" data-id="1">
+                    <h3>Terraforming Mars</h3>
+                    <p>Preço: R$ 300,00</p>
+                    <button class="add-to-cart">Adicionar ao Carrinho</button>
+                </div>
+                <div class="game-item" data-id="2">
+                    <h3>Catan</h3>
+                    <p>Preço: R$ 250,00</p>
+                    <button class="add-to-cart">Adicionar ao Carrinho</button>
+                </div>
+                <div class="game-item" data-id="3">
+                    <h3>Ticket to Ride</h3>
+                    <p>Preço: R$ 200,00</p>
+                    <button class="add-to-cart">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+        </section>
+        <section id="cart">
+            <h2>Seu Carrinho</h2>
+            <div class="cart-list">
+                <!-- Itens do carrinho serão adicionados aqui -->
+            </div>
+            <p class="cart-total">Total: R$ 0,00</p>
+            <button class="checkout">Finalizar Compra</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Loja de Board Games. Todos os direitos reservados.</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
